@@ -1,0 +1,449 @@
+@import "common.css";
+@import "utility.css";
+@import "variables.css";
+@import "fonts.css";
+.header {
+    background-image: url(../images/header-bg.jpg);
+    background-position: inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 65px;
+}
+
+.container {
+    max-width: 1230px;
+    margin: 0 auto;
+}
+
+.header_nav__menu-link {
+    text-decoration: none;
+    line-height: 18px;
+    color: var(--color-white);
+}
+
+.header_nav__menu {
+    padding: 20px;
+}
+
+.header_content {
+    align-items: flex-start;
+    padding-top: 100px;
+}
+
+.header_content__schedule-text {
+    display: inline-block;
+    color: var(--color-white);
+    line-height: 12px;
+    writing-mode: vertical-rl;
+    -ms-writing-mode: tb-rl;
+    font-language-override: normal;
+    transform: rotate(180deg);
+}
+
+.header_content__p {
+    line-height: 14px;
+    color: var(--color-white);
+    letter-spacing: 8px;
+}
+
+.header_content__title {
+    font-size: 96px;
+    color: var(--color-white);
+    padding-bottom: 20px;
+}
+
+.header_content__title::after {
+    display: block;
+    content: "";
+    width: 60px;
+    height: 5px;
+    background-color: var(--color-yellow);
+    border-radius: 50px;
+    margin: 25px auto;
+}
+
+.header_content__social-item {
+    margin-bottom: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    padding: 12px;
+}
+
+.header_content__social-item:last-child {
+    margin: 0;
+}
+
+.booking_btn {
+    border-radius: 5px;
+    background-color: transparent;
+    border: 1px solid var(--color-white);
+    outline: none;
+    line-height: 20px;
+    text-align: center;
+    width: 200px;
+    padding: 15px 0;
+    color: var(--color-white);
+    transition: 0.5s;
+    margin-right: 40px;
+}
+
+.booking_btn:last-child {
+    margin-right: 0;
+}
+
+.booking_btn:hover {
+    background-color: var(--color-yellow);
+    cursor: pointer;
+}
+
+.header_content__btnImg {
+    padding-top: 92px;
+}
+
+.about {
+    background-color: var(--color-white);
+}
+
+.about_content {
+    padding-top: 145px;
+}
+
+.about_content__title {
+    font-size: 36px;
+    line-height: 48px;
+    color: var(--color-black);
+}
+
+.about_content__title::after {
+    display: block;
+    content: "";
+    width: 60px;
+    height: 5px;
+    background-color: var(--color-yellow);
+    margin: 20px auto;
+    border-radius: 50px;
+}
+
+.about_content__text {
+    max-width: 600px;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.about_us__image {
+    position: relative;
+    padding: 60px;
+}
+
+.about_recImg {
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+    border: 20px solid var(--color-yellow);
+    position: absolute;
+    top: 196px;
+    right: -15px;
+}
+
+.our_team {
+    background-image: url(../images/ourteam.jpg);
+    background-repeat: no-repeat;
+    padding-top: 40px;
+    background-position: center;
+}
+
+.our_team__title {
+    line-height: 14px;
+    font-weight: bold;
+    letter-spacing: 8px;
+    color: var(--color-white);
+}
+
+.team_content__image {
+    position: relative;
+}
+
+.team_content {
+    display: flex;
+}
+
+.team_content__rect {
+    position: absolute;
+    top: 155px;
+    left: -54px;
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+    border: 20px solid var(--color-yellow);
+}
+
+.team_content__text {
+    padding: 114px 0px 65px 80px;
+    width: 600px;
+}
+
+.team_content__text-title {
+    font-size: 36px;
+    line-height: 48px;
+    color: var(--color-white);
+    letter-spacing: 3px;
+}
+
+.team_content__text-title::after {
+    display: block;
+    content: "";
+    width: 60px;
+    height: 5px;
+    background-color: var(--color-yellow);
+    margin: 20px auto;
+    border-radius: 50px;
+}
+
+.team_content__text-item {
+    color: var(--color-darkWhite);
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.book_table__content {
+    padding: 150px 10px 20px 85px;
+}
+
+.book_table__content-title {
+    font-size: 36px;
+    line-height: 48px;
+    color: var(--color-black);
+}
+
+.book_table__content-title::after {
+    display: block;
+    content: "";
+    width: 60px;
+    height: 5px;
+    background-color: var(--color-yellow);
+    margin: 20px auto;
+    border-radius: 50px;
+}
+
+.book_table__image {
+    position: relative;
+    padding: 50px 50px 0 50px;
+}
+
+.book_table__rect {
+    position: absolute;
+    width: 226px;
+    height: 226px;
+    border: 20px solid var(--color-yellow);
+    border-radius: 5px;
+    top: 235px;
+    right: -10px;
+}
+
+.booking_input {
+    flex-wrap: wrap;
+}
+
+.booking_input__item {
+    width: 220px;
+    margin: 5px;
+    padding: 11px;
+    background-color: var(--color-gray);
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    outline: none;
+    color: #9e9595;
+}
+
+.booking_table__content-btn {
+    background-color: var(--color-yellow);
+    border: none;
+    padding: 10px 0;
+    border-radius: 5px;
+    color: var(--color-white);
+    margin-top: 5px;
+}
+
+.booking_footer__text {
+    display: block;
+    line-height: 12px;
+    color: var(--color-darkGray);
+    padding-bottom: 30px;
+}
+
+.our_menu {
+    background-image: url(../images/menu.jpg);
+    background-repeat: no-repeat;
+    padding-top: 40px;
+    background-position: center;
+}
+
+.team_content__body {
+    display: flex;
+}
+
+.team_content__rect2 {
+    position: absolute;
+    width: 226px;
+    height: 226px;
+    border: 20px solid var(--color-yellow);
+    border-radius: 5px;
+    top: 160px;
+    right: -40px;
+}
+
+.events__text {
+    display: block;
+    line-height: 12px;
+    color: var(--color-darkGray);
+    padding-bottom: 30px;
+}
+
+.ring_black {
+    position: absolute;
+    width: 80px;
+    height: 475px;
+    background-color: var(--color-black);
+    top: 50px;
+    left: 445px;
+}
+
+.ring_black__text {
+    color: var(--color-white);
+    font-size: 24px;
+    line-height: 12px;
+    text-indent: 20px;
+    writing-mode: vertical-rl;
+    -ms-writing-mode: tb-rl;
+    font-language-override: normal;
+}
+
+.flower_black {
+    position: absolute;
+    width: 80px;
+    height: 475px;
+    background-color: var(--color-black);
+    top: 50px;
+    right: 445px;
+}
+
+.flower_black__text {
+    color: var(--color-white);
+    font-size: 24px;
+    line-height: 12px;
+    text-indent: 20px;
+    writing-mode: vertical-rl;
+    -ms-writing-mode: tb-rl;
+    font-language-override: normal;
+    transform: rotate(180deg);
+    padding-bottom: 210px;
+}
+
+.images_block {
+    max-width: 1356px;
+    margin: auto;
+}
+
+.images_block__item {
+    max-width: 337px;
+}
+
+.contact_body__title {
+    font-size: 36px;
+    line-height: 48px;
+    color: var(--color-black);
+    border-radius: 5px;
+}
+
+.contact_body {
+    padding: 100px 0;
+}
+
+.contact_body__title::after {
+    display: block;
+    content: "";
+    width: 60px;
+    height: 5px;
+    background-color: var(--color-yellow);
+    margin: 20px auto;
+    border-radius: 50px;
+}
+
+.contact_body__text {
+    max-width: 500px;
+    font-size: 18px;
+    line-height: 28px;
+    margin: auto;
+    color: var(--color-black);
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+
+.contact_body__inputs {
+    flex-wrap: wrap;
+}
+
+.contacts_body__inputs-item {
+    width: 400px;
+    padding: 10px 0;
+    border-radius: 5px;
+    padding-left: 15px;
+    margin-right: 5px;
+    background-color: var(--color-gray);
+    border: none;
+}
+
+.contacts_body__inputs-item::last-child {
+    margin: 0;
+}
+
+.contact_body__textarea {
+    margin-top: 10px;
+    width: 100%;
+    max-width: 1210px;
+    background-color: var(--color-gray);
+    border: none;
+    border-radius: 5px;
+    padding: 15px 0 0 15px;
+}
+
+.submit {
+    padding-top: 10px;
+}
+
+.submit__text {
+    display: block;
+    font-size: 14px;
+    line-height: 14px;
+    padding: 15px;
+}
+
+.submit_btn {
+    display: block;
+    background-color: var(--color-yellow);
+    border: none;
+    color: var(--color-white);
+    line-height: 20px;
+    width: 630px;
+    border-radius: 5px;
+}
+
+.map {
+    width: 100%;
+    height: 390px;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+}
+
+.footer {
+    background-color: var(--color-black);
+    padding: 30px 0;
+}
+
+.footer__text {
+    color: var(--color-darkWhite);
+    line-height: 12px;
+    letter-spacing: 2px;
+}
