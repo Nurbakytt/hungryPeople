@@ -272,6 +272,73 @@
     padding-bottom: 30px;
 }
 
+.delicious__content {
+    padding: 100px 0;
+}
+
+.delicious_title {
+    font-size: 36px;
+    line-height: 48px;
+    color: var(--color-black);
+}
+
+.delicious_title::after {
+    display: block;
+    content: "";
+    width: 60px;
+    height: 5px;
+    background-color: var(--color-yellow);
+    margin: 20px auto;
+    border-radius: 50px;
+}
+
+.delicious__text {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    width: 500px;
+    color: var(--color-black);
+    padding-bottom: 30px;
+    margin: 0 auto;
+    text-align: -webkit-center;
+}
+
+.delicious_content__menu {
+    margin: 0 auto;
+}
+
+.delicious_content__menu-item {
+    font-weight: bold;
+    line-height: 18px;
+    color: var(--color-whiteDark);
+    border-right: 1px solid var(--color-darkGray);
+    padding: 20px 40px;
+}
+
+.delicious_price {
+    padding-top: 60px;
+}
+
+.delicious_price__column {
+    padding-right: 80px;
+}
+
+.delicious_price__column:last-child {
+    padding: 0;
+}
+
+.delicious_price__column-item {
+    font-size: 18px;
+    line-height: 18px;
+    color: var(--color-whiteDark);
+}
+
+.delicious_price__column-items {
+    color: var(--color-darkGray);
+    line-height: 20px;
+    font-size: 12px;
+}
+
 .our_menu {
     background-image: url(../images/menu.jpg);
     background-repeat: no-repeat;
